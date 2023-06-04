@@ -7,6 +7,5 @@ if __name__ == "__main__" :
 		lst.append(sys.stdin.readline().strip())
 	lst = set(lst)
 	lst = sorted(lst, key = lambda x : (len(x), x))
-	print("\n\n\n")
 	for i in lst :
 		print(i)
