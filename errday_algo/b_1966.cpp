@@ -17,7 +17,7 @@ int	print_q()
 	res = 0;
 	cin >> n >> m;
 	arr = new int[n];
-	for (int i = 0; i < n; i ++)
+	for (int i = 0; i < n; i ++) 
 	{
 		cin >> arr[i];
 		p.first = arr[i];
